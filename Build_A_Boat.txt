@@ -460,9 +460,10 @@ Toggle3:CreateKeybind(tostring(Config.Keybind):gsub("Enum.KeyCode.", ""), functi
 	Config.Keybind = Enum.KeyCode[Key]
 end)
 Toggle3:SetState(true)
-Section3:CreateLabel("ตำนาน B33HUB")
+Section3:CreateLabel("ตำนาน MK HUB")
 Section3:CreateLabel("ผู้ทำ xZGAME#1997")
 Section3:CreateLabel("ผู้ทำ MYBOOMXD#9086")
+Section3:CreateLabel("ผู้ทำ dylan_34zc#0911")
 Section3:CreateLabel("ผู้ทำ pk999#7391")
 Section3:CreateLabel("รวมผู้ทำ")
 local Colorpicker3 = Section3:CreateColorpicker("UI Color", function(Color)
@@ -515,13 +516,13 @@ game.StarterGui:SetCore(
     "SendNotification",
     {
         Title = "Login",
-        Text = "to MKSHOP HUB"
+        Text = "to MK HUB"
     }
 )
 game.StarterGui:SetCore(
     "SendNotification",
     {
-        Title = "สคิป Build A Boat",
-        Text = "BY:MKSHOP"
+        Title = "Build A Boat",
+        Text = "BY:MKHUB"
     }
 )
